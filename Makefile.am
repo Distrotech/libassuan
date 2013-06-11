@@ -29,7 +29,7 @@ EXTRA_DIST = config.rpath autogen.sh README.GIT                  	\
              tests/ChangeLog-2011 contrib/ChangeLog-2011     		\
              build-aux/git-log-footer build-aux/git-log-fix
 
-SUBDIRS = m4 src doc tests
+SUBDIRS = m4 src tests
 
 
 dist-hook: gen-ChangeLog
